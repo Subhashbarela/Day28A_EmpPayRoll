@@ -74,7 +74,7 @@ body{
     min-width: 140px;
 }
 label{
-    padding: 12px 12px 12px 0;
+    padding: 10px 8px 12px 0;
     display: inline-block;
 }
 .text{
@@ -85,7 +85,7 @@ label{
 }
 .imput{
     width: 100%;
-    padding: 12px;
+    padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
@@ -103,4 +103,14 @@ label{
     width: 35px;
     border-radius: 50%;
     margin-left: 12px;
+}
+select{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font:normal normal normal 16px Roboto;
+    letter-spacing: 0px;
+    color: #42515f;
+    border-color: transparent;
 }
